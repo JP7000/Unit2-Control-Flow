@@ -27,7 +27,19 @@ username = "CoolGamer123"
 len = len(username)
 # Your code here
 char = ''
-upper_checker = "A" <= char <= "Z"
+upper_checker = ""
+has_number = ""
+for char in username:
+    if "A" <= char <= "Z":
+        upper_checker = True
+    if "0" <= char <= 9:
+        has_number = True
+print(f"Username: {username}")
+print(f"Has number: {has_number}")
+print(f"Length: {len}")
+print(f"Is uppercase: {upper_checker}")
+
+
 
 
     
