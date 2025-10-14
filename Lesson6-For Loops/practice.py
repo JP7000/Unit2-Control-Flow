@@ -32,4 +32,20 @@ for char in pass:
         is_lower = 1
     elif char.isdigit():
         is_digit = 1
-is_va
+is_good = len(pass) => 8 and is_upper and is_lower and is_lower and has_digit
+print(is.valid)
+#problem 14 
+
+sum = 0
+for i in range(1,101):
+    sum += i
+print(sum)
+
+#problem 15
+
+text = "abc123xyz456"
+numbers = ""
+for char in text:
+    if is_digit:
+        numbers += char
+print(numbers)
