@@ -30,5 +30,24 @@ while True:
     if answer == "no":
         break #Exit loop!
     print("Going...")
-print("Done!"
-      )
+print("Done!")
+
+count = 0
+while count < 5:
+    count += 1
+    if count == 3:
+        continue
+    print(count)
+
+num = 7
+while True:
+    guess = int(input("Guess: "))
+    if guess < 7:
+        print("Higher")
+        continue
+    elif guess > 7:
+        print("Lower")
+        continue
+    else:
+        print("Correct!")
+        break
